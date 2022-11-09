@@ -169,3 +169,8 @@ func (seg *Segmenter) LoadStopStr(dict string) error {
 
 	return nil
 }
+
+// TakeZhIdf load the stop dictionary from string
+func (seg *Segmenter) TakeZhIdf() string {
+	return zhIdf
+}
